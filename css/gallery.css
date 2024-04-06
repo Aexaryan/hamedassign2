@@ -1,0 +1,103 @@
+/* Basic styles for the body */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #e9ecef;
+    color: #212529;
+    line-height: 1.6;
+    padding: 20px;
+}
+
+/* Styling for the navigation bar */
+nav {
+    background-color: #007bff; /* Matching theme color */
+    padding: 10px 0;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Spacing between nav and content */
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 10px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #e9ecef; /* Light hover effect */
+}
+
+/* Style for the main heading */
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #007bff;
+}
+
+/* Styling for the gallery container */
+#gallery {
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+/* Styling for individual figures in the gallery */
+#gallery figure {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Styles for the main image */
+#gallery figure img {
+    max-width: 100%;
+    height: auto;
+    border: 4px solid #007bff;
+    border-radius: 4px;
+}
+
+/* Style for the image caption */
+#gallery figure figcaption {
+    font-style: italic;
+    color: #6c757d;
+}
+
+/* Styles for the thumbnail list */
+#gallery ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+/* Styles for individual list items */
+#gallery ul li {
+    margin: 5px;
+}
+
+/* Styles for thumbnail images */
+#gallery ul li img {
+    width: 100px;
+    height: auto;
+    border: 2px solid #ddd;
+    cursor: pointer;
+    transition: border-color 0.3s;
+}
+
+/* Hover effect for thumbnails */
+#gallery ul li img:hover {
+    border-color: #007bff;
+}
